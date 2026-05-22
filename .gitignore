@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# YOLOv8 models (se descargan automáticamente)
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Outputs grandes (clips de video)
+output/clips/*.mp4
+
+# Mantener estructura de carpetas
+!output/clips/.gitkeep
+!output/captures/.gitkeep
+!output/reports/.gitkeep
+!output/data/.gitkeep
